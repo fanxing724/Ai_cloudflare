@@ -1,0 +1,24 @@
+{
+  "name": "irena-qqbot",
+  "version": "1.0.0",
+  "description": "基于《魔女之旅》伊蕾娜角色的QQ AI聊天机器人",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "qq-bot",
+    "chatbot",
+    "cloudflare-workers",
+    "ai",
+    "irena",
+    "魔女之旅"
+  ],
+  "author": "番星",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

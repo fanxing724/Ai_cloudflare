@@ -1,0 +1,13 @@
+name = "irena-qqbot"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# KV 存储绑定（用于对话记忆）
+# 创建 KV 命名空间后取消注释并填入 ID
+# [[kv_namespaces]]
+# binding = "AI_KV"
+# id = "你的KV命名空间ID"
+
+# 环境变量（敏感信息请使用 wrangler secret put）
+# [vars]
+# GLM_API_KEY = ""
