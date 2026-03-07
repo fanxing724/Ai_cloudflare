@@ -410,11 +410,12 @@ if (text.includes("你的关键词")) {
 修改 `GLM_MODELS` 数组，添加多个模型：
 ```javascript
 const GLM_MODELS = [
-  { name: "glm-4", model: "glm-4", priority: 1 },
-  { name: "glm-4-air", model: "glm-4-air", priority: 2 },
-  { name: "glm-3-turbo", model: "glm-3-turbo", priority: 3 }
+  { name: "glm-4.7", model: "glm-4.7", expireAt: 1776259200, priority: 1 },
+  { name: "glm-4-air", model: "glm-4-air", expireAt: 1773580800, priority: 2 }
 ];
 ```
+
+> `expireAt` 是 Unix 时间戳，用于控制模型优先级的有效期（GLM 免费额度有效期）
 
 ### 限流配置
 
